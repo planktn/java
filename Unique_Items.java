@@ -30,7 +30,57 @@ public class Unique_Items {
 
                 case 1:
                     System.out.println(grocery);
+                    System.out.println("----------------------------");
                     break;
+
+                case 2:
+                    System.out.print("Enter you item: ");
+                    item=sc.nextLine();
+                    if(grocery.contains(item))
+                    {
+                        System.out.println("Its already present");
+                        System.out.println("----------------------------");
+                    }else
+                    {
+                        grocery.add(item);
+                        System.out.println(item+" Added");
+                        System.out.println("----------------------------");
+                    }
+                    break;
+
+                case 3:
+                    System.out.print("Enter the item you want to remove: ");
+                    item=sc.nextLine();
+                    if(grocery.contains(item))
+                    {
+                        grocery.remove(item);
+                        System.out.println(item+" removed...");
+                        System.out.println("----------------------------");
+                    }else
+                    {
+                        System.out.println(item+" Is not in the list");
+                        System.out.println("----------------------------");
+                    }
+                    break;
+
+                case 4:
+                    System.out.print("Enter the item: ");
+                    item=sc.nextLine();
+                    if(grocery.contains(item))
+                    {
+                        System.out.println("its there.");
+                        System.out.println("----------------------------");
+                    }else {
+                        System.out.println("Not there.");
+                        System.out.println("----------------------------");
+                    }
+                    break;
+
+                    case 5:
+                        System.out.println(grocery.size());
+                        System.out.println("----------------------------");
+                        break;
+
 
 
                 case 6:
