@@ -13,7 +13,7 @@ public class class_registration {
         for(int i=1; i<=count; i++)
         {
             System.out.print("Name: ");
-            name=sc.nextLine();
+            name = sc.nextLine().trim().toLowerCase();
             if(student_name.contains(name)){
                 System.out.println(name+" already present");
                 System.out.println("_________________________________");
