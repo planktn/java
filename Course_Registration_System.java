@@ -1,9 +1,6 @@
-import com.sun.source.tree.Tree;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 public class Course_Registration_System {
     public static void main(String[] args)
@@ -54,11 +51,45 @@ public class Course_Registration_System {
                     }
                     break;
 
+                case 4:
+                    System.out.print("Enter the Student Name: ");
+                    student_name = sc.nextLine();
+                    if(registrations.containsKey(student_name)){
+                        System.out.println("Courses of " + student_name + " are:");
+                        for (String course : registrations.get(student_name)) {
+                            System.out.println(course);
+                        }
+                        System.out.print("Enter the course you want to remove: ");
+                        course_name = sc.nextLine();
+                        registrations.get(student_name).remove(course_name);
+                        System.out.println(course_name + " is been removed.");
+                    }else {
+                        System.out.println("No Student Found in this name :" + student_name);
+                    }
+                    break;
+
+                case 5:
+                    System.out.print("The total count of student is :");
+                    int studentsize = registrations.size();
+                    System.out.println(studentsize);
+                    int totalcourses = 0;
+                    for (HashSet<String> students : registrations.values()) {
+                        totalcourses += students.size();
+                    }
+                    System.out.println("Total number of Course is: " + totalcourses);
+                    break;
+
                 case 6:
                     System.out.println("Exiting....");
                     run = false;
                     System.out.println("----------------------------");
                     break;
+
+                default:
+                    System.out.println("Wrong option");
+                    break;
+
+
             }
         }while(run);
     }
