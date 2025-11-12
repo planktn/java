@@ -1,52 +1,30 @@
-# Java
+# Java — Learning Java & Spring Boot
 
-> Learning java and springboot framework
-
-## Overview
-
-This repository is dedicated to learning and experimenting with Java and the Spring Boot framework. It contains sample code, exercises, and example projects to help understand core Java concepts and Spring Boot development.
-
-## Language
-
-- **Java** (100%)
-
-## Features
-
-- Java basics and advanced concepts
-- Spring Boot setup and configuration
-- Example Spring Boot projects
-- Code snippets and learning notes
-
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/planktn/java.git
-   cd java
-   ```
-
-2. **Open in your favorite IDE** (such as IntelliJ IDEA or Eclipse).
-
-3. **Build & Run:**
-   - If using Maven:
-     ```bash
-     mvn clean install
-     mvn spring-boot:run
-     ```
-   - If using Gradle:
-     ```bash
-     gradle build
-     gradle bootRun
-     ```
-
-## Contributing
-
-Contributions, suggestions, and improvements are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is for educational purposes.
+Learning Java and Spring Boot framework through examples, exercises, and small projects.  
+This repository is a collection of all my Java practice files and mini console applications.
 
 ---
 
-Happy coding!
+## 📘 Overview
+This repo contains:
+- Core Java programs for practice
+- Console-based mini projects
+- Early Spring Boot setup and experiments
+
+Each `.java` file is self-contained and can be run individually from your IDE or terminal.
+
+---
+
+## ⚙️ Prerequisites
+- **Java JDK 11 or higher**
+- **IDE:** IntelliJ IDEA / Eclipse / VS Code
+- **Git** (for cloning the repo)
+- (Optional) **Maven/Gradle** if using Spring Boot
+
+---
+
+## 🚀 Quick Start
+```bash
+# Clone this repository
+git clone https://github.com/planktn/java.git
+cd java
