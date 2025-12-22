@@ -1,30 +1,45 @@
-# Java — Learning Java & Spring Boot
+# Java — Core Java Practice & Mini Projects
 
-Learning Java and Spring Boot framework through examples, exercises, and small projects.  
-This repository is a collection of all my Java practice files and mini console applications.
-
----
-
-## 📘 Overview
-This repo contains:
-- Core Java programs for practice
-- Console-based mini projects
-- Early Spring Boot setup and experiments
-
-Each `.java` file is self-contained and can be run individually from your IDE or terminal.
+This repository contains my **Java learning workspace**, focused on building strong fundamentals through small programs and console-based mini projects.  
+The code here reflects hands-on practice with Java syntax, logic building, object-oriented concepts, and basic application flow.
 
 ---
 
-## ⚙️ Prerequisites
-- **Java JDK 11 or higher**
-- **IDE:** IntelliJ IDEA / Eclipse / VS Code
-- **Git** (for cloning the repo)
-- (Optional) **Maven/Gradle** if using Spring Boot
+## Repository Structure
+
+The repository consists of individual Java files, each targeting a specific concept or problem.
+
+### Core Java Programs
+- `minmax.java` — Finds minimum and maximum values from input
+- `reverse.java` — Reverses numbers/strings using logic
+- `duplicates.java` — Identifies duplicate elements
+- `Unique_Items.java` — Extracts unique elements from a collection
+- `snacks.java` — Basic conditional and input handling
+- `Person.java` — Simple class-based object modeling
+
+### Mini Console Applications
+- `Course_Registration_System.java` — Simulates course registration logic
+- `class_registration.java` — Class enrollment workflow
+- `Grocery_Manager.java` — Grocery management console application
+- `Mini_Grocery.java` — Simplified grocery system
+
+### IDE / Build Artifacts
+- `.idea/` — IntelliJ IDEA project configuration
+- `out/production/java/` — Compiled class files
 
 ---
 
-## 🚀 Quick Start
-```bash
-# Clone this repository
-git clone https://github.com/planktn/java.git
-cd java
+## Tech Stack
+
+- Java (Core Java, OOP)
+- Console-based applications
+- IntelliJ IDEA (IDE)
+
+- ## Purpose of This Repository
+
+- Build strong Java fundamentals
+- Practice logic, loops, conditionals, and data handling
+- Understand object-oriented programming concepts
+- Prepare for advanced Java and Spring Boot development
+
+This repository will continue to evolve as more concepts and projects are added.
