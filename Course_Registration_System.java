@@ -88,8 +88,6 @@ public class Course_Registration_System {
                 default:
                     System.out.println("Wrong option");
                     break;
-
-
             }
         }while(run);
     }
